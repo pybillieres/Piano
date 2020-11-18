@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+#keyboard {
+    position: relative;
+    margin: 10%;
+    width: 80%;
+    height: 400px;
+}
+
+.key {
+    height: 400px;
+    background-color: white;
+    border: 5px black solid;
+    width: 10%;
+    float: left;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.key.black {
+    position: absolute;
+    background-color: black;
+    height: 300px;
+    width: 6%;
+    border-radius: 0 0 10px 10px;
+}
+
+#bkey1 {
+    left: 7%;
+}
+
+#bkey2 {
+    left: 17%
+}
+
+#bkey3 {
+    left: 37%
+}
+
+#bkey4 {
+    left: 47%
+}
+
+#bkey5 {
+    left: 57%
+}
+
+#bkey6 {
+    left: 77%
+}
+
+#bkey7 {
+    left: 87%
+}
