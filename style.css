@@ -4,7 +4,7 @@ body {
 
 #keyboard {
     position: relative;
-    margin: 10%;
+    margin: 10% 10% 0 10%;
     width: 80%;
     height: 400px;
 }
@@ -12,11 +12,36 @@ body {
 .key {
     height: 400px;
     background-color: white;
-    border: 5px black solid;
+    border: 0.2rem black solid;
     width: 10%;
     float: left;
     border-radius: 10px;
     box-sizing: border-box;
+    transition: height 0.3s;
+}
+
+#label {
+    position: relative;
+    margin: 0 10% 10% 10%;
+    width: 80%;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.label {
+    float: left;
+    width: 10%;
+}
+
+.selector {
+    color: white;
+    position: absolute;
+}
+
+.key:active {
+    background-color: red;
+    height: 380px;
 }
 
 .key.black {
@@ -27,30 +52,37 @@ body {
     border-radius: 0 0 10px 10px;
 }
 
-#bkey1 {
+.key.black:active {
+    background-color: red;
+    border: none;
+    border-top: 0.2rem black solid;
+    height: 290px;
+}
+
+#CS {
     left: 7%;
 }
 
-#bkey2 {
+#DS {
     left: 17%
 }
 
-#bkey3 {
+#FS {
     left: 37%
 }
 
-#bkey4 {
+#GS {
     left: 47%
 }
 
-#bkey5 {
+#AS {
     left: 57%
 }
 
-#bkey6 {
+#CS1 {
     left: 77%
 }
 
-#bkey7 {
+#DS1 {
     left: 87%
 }
